@@ -65,3 +65,4 @@ allCities = allCities + ', ' + cities[4];
 console.log(allCities);
 
 console.log(cities.join(', '));
+
