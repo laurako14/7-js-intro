@@ -64,3 +64,5 @@ const step = 2;
      rez = rez + raide;
  }
  console.log(rez);
+
+ 
