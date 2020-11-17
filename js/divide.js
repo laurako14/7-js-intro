@@ -10,12 +10,11 @@ for (let i = nuo; i <= iki; i++) {
     console.log(i, i % daliklis);
     if (i % daliklis === 0) {
         kiekis++;
-    } 
+    } else {
+        
+    }
 }
 
 
-
-
-
-
 console.log(`Skaiciu intervale tarp ${nuo} ir ${iki} besidalijanciu be liekanos is ${daliklis} yra ${kiekis} vienetai.`)
+
