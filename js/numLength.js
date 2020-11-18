@@ -1,4 +1,4 @@
-function numLength() {
+function numLength(num) {
     // input validation
     if (typeof num !== 'number') {
         return 'Pateikta netinkamo tipo reiksme.';
