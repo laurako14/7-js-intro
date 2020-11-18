@@ -63,8 +63,8 @@ console.log(multiply(Infinity, Infinity));
 
 
 function repeatStr (n,s) {
+    let str = '';
     for (let i = 0; i < n; i++) {
-        let str = '';
         str = str + s;
         }
     return str;
