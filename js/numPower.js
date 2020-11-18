@@ -27,9 +27,9 @@ console.log(norimasLaipsnis(-5,3));
 
 
 function faktorialas(n) {
-    let rez = 0;
+    let rez = 1;
 
-    for (let i = 0; i < n; i++) {
+    for (let i = 1; i <= n; i++) {
         rez = rez * i;
     }
     return rez;
@@ -38,3 +38,20 @@ function faktorialas(n) {
 const f0 = faktorialas(0);
 const f1 = faktorialas(1);
 const f2 = faktorialas(2);
+
+function lyginisFaktorialas(n) {
+    let rez = 1;
+    for (let i = 1; i <= n; i++) {
+        if (i % 2 === 0) {
+            rez = rez * i;
+        }
+    }
+    return rez;
+}
+
+const lf0 = lyginisFaktorialas(0);
+const lf1 = lyginisFaktorialas(1);
+const lf2 = lyginisFaktorialas(2);
+const lf3 = lyginisFaktorialas(3);
+const lf4 = lyginisFaktorialas(4);
+
